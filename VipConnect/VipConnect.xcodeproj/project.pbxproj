@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B66F4E275938B600887982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F4D275938B600887982 /* AppDelegate.swift */; };
+		62B66F50275938B600887982 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F4F275938B600887982 /* SceneDelegate.swift */; };
+		62B66F57275938B900887982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B66F56275938B900887982 /* Assets.xcassets */; };
+		62B66F672759390100887982 /* file.json in Resources */ = {isa = PBXBuildFile; fileRef = 62B66F652759390100887982 /* file.json */; };
+		62B66F682759390100887982 /* Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B66F662759390100887982 /* Screen.storyboard */; };
+		62B66F792759395900887982 /* BookPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F6B2759395800887982 /* BookPresenter.swift */; };
+		62B66F7B2759395900887982 /* BookDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F6E2759395800887982 /* BookDecoder.swift */; };
+		62B66F7C2759395900887982 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F6F2759395800887982 /* Book.swift */; };
+		62B66F7D2759395900887982 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F712759395900887982 /* BookTableViewCell.swift */; };
+		62B66F7E2759395900887982 /* BookListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F722759395900887982 /* BookListController.swift */; };
+		62B66F7F2759395900887982 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F732759395900887982 /* DetailsViewController.swift */; };
+		62B66F802759395900887982 /* BookInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F752759395900887982 /* BookInteractor.swift */; };
+		62B66F822759395900887982 /* BookRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B66F782759395900887982 /* BookRouter.swift */; };
+		62B66F88275939E800887982 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 62B66F87275939E800887982 /* Alamofire */; };
+		9B0653B710606BCAC079D59C /* Pods_VipConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B66E0AFDD7B3C4A3A57C9B /* Pods_VipConnect.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62B66F4A275938B600887982 /* VipConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B66F4D275938B600887982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62B66F4F275938B600887982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62B66F56275938B900887982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62B66F5B275938B900887982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B66F652759390100887982 /* file.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = file.json; sourceTree = "<group>"; };
+		62B66F662759390100887982 /* Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Screen.storyboard; sourceTree = "<group>"; };
+		62B66F6B2759395800887982 /* BookPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPresenter.swift; sourceTree = "<group>"; };
+		62B66F6E2759395800887982 /* BookDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDecoder.swift; sourceTree = "<group>"; };
+		62B66F6F2759395800887982 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		62B66F712759395900887982 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		62B66F722759395900887982 /* BookListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListController.swift; sourceTree = "<group>"; };
+		62B66F732759395900887982 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		62B66F752759395900887982 /* BookInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookInteractor.swift; sourceTree = "<group>"; };
+		62B66F782759395900887982 /* BookRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookRouter.swift; sourceTree = "<group>"; };
+		66DE9F3BFDC3D7487202AC13 /* Pods-VipConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipConnect.debug.xcconfig"; path = "Target Support Files/Pods-VipConnect/Pods-VipConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		82B66E0AFDD7B3C4A3A57C9B /* Pods_VipConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA58EAEA34CD7DBEA1B4A850 /* Pods-VipConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipConnect.release.xcconfig"; path = "Target Support Files/Pods-VipConnect/Pods-VipConnect.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B66F47275938B600887982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B66F88275939E800887982 /* Alamofire in Frameworks */,
+				9B0653B710606BCAC079D59C /* Pods_VipConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531665CCC575BC9085BDCD2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B66E0AFDD7B3C4A3A57C9B /* Pods_VipConnect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62B66F41275938B600887982 = {
+			isa = PBXGroup;
+			children = (
+				62B66F4C275938B600887982 /* VipConnect */,
+				62B66F4B275938B600887982 /* Products */,
+				F6676D36ECF33692C1CF3B80 /* Pods */,
+				531665CCC575BC9085BDCD2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62B66F4B275938B600887982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B66F4A275938B600887982 /* VipConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B66F4C275938B600887982 /* VipConnect */ = {
+			isa = PBXGroup;
+			children = (
+				62B66F63275938D600887982 /* App */,
+				62B66F702759395900887982 /* View */,
+				62B66F742759395900887982 /* Interactor */,
+				62B66F6D2759395800887982 /* Model */,
+				62B66F6A2759395800887982 /* Presenter */,
+				62B66F772759395900887982 /* Router */,
+			);
+			path = VipConnect;
+			sourceTree = "<group>";
+		};
+		62B66F63275938D600887982 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				62B66F4D275938B600887982 /* AppDelegate.swift */,
+				62B66F4F275938B600887982 /* SceneDelegate.swift */,
+				62B66F56275938B900887982 /* Assets.xcassets */,
+				62B66F5B275938B900887982 /* Info.plist */,
+				62B66F652759390100887982 /* file.json */,
+				62B66F662759390100887982 /* Screen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		62B66F6A2759395800887982 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				62B66F6B2759395800887982 /* BookPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		62B66F6D2759395800887982 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62B66F6F2759395800887982 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62B66F702759395900887982 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62B66F712759395900887982 /* BookTableViewCell.swift */,
+				62B66F722759395900887982 /* BookListController.swift */,
+				62B66F732759395900887982 /* DetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62B66F742759395900887982 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				62B66F752759395900887982 /* BookInteractor.swift */,
+				62B66F6E2759395800887982 /* BookDecoder.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		62B66F772759395900887982 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				62B66F782759395900887982 /* BookRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F6676D36ECF33692C1CF3B80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66DE9F3BFDC3D7487202AC13 /* Pods-VipConnect.debug.xcconfig */,
+				FA58EAEA34CD7DBEA1B4A850 /* Pods-VipConnect.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62B66F49275938B600887982 /* VipConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B66F5E275938B900887982 /* Build configuration list for PBXNativeTarget "VipConnect" */;
+			buildPhases = (
+				D7F82650844BF0C2B8175743 /* [CP] Check Pods Manifest.lock */,
+				62B66F46275938B600887982 /* Sources */,
+				62B66F47275938B600887982 /* Frameworks */,
+				62B66F48275938B600887982 /* Resources */,
+				4434A21B87D7F60A1C479191 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VipConnect;
+			packageProductDependencies = (
+				62B66F87275939E800887982 /* Alamofire */,
+			);
+			productName = VipConnect;
+			productReference = 62B66F4A275938B600887982 /* VipConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B66F42275938B600887982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					62B66F49275938B600887982 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 62B66F45275938B600887982 /* Build configuration list for PBXProject "VipConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62B66F41275938B600887982;
+			packageReferences = (
+				62B66F86275939E800887982 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 62B66F4B275938B600887982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62B66F49275938B600887982 /* VipConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B66F48275938B600887982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B66F682759390100887982 /* Screen.storyboard in Resources */,
+				62B66F57275938B900887982 /* Assets.xcassets in Resources */,
+				62B66F672759390100887982 /* file.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4434A21B87D7F60A1C479191 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VipConnect/Pods-VipConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VipConnect/Pods-VipConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VipConnect/Pods-VipConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F82650844BF0C2B8175743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VipConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62B66F46275938B600887982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B66F4E275938B600887982 /* AppDelegate.swift in Sources */,
+				62B66F802759395900887982 /* BookInteractor.swift in Sources */,
+				62B66F50275938B600887982 /* SceneDelegate.swift in Sources */,
+				62B66F7F2759395900887982 /* DetailsViewController.swift in Sources */,
+				62B66F7C2759395900887982 /* Book.swift in Sources */,
+				62B66F7D2759395900887982 /* BookTableViewCell.swift in Sources */,
+				62B66F822759395900887982 /* BookRouter.swift in Sources */,
+				62B66F7E2759395900887982 /* BookListController.swift in Sources */,
+				62B66F7B2759395900887982 /* BookDecoder.swift in Sources */,
+				62B66F792759395900887982 /* BookPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62B66F5C275938B900887982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62B66F5D275938B900887982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62B66F5F275938B900887982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DE9F3BFDC3D7487202AC13 /* Pods-VipConnect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J63D684Z2W;
+				INFOPLIST_FILE = VipConnect/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haykmerch.VipConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62B66F60275938B900887982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA58EAEA34CD7DBEA1B4A850 /* Pods-VipConnect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J63D684Z2W;
+				INFOPLIST_FILE = VipConnect/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haykmerch.VipConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62B66F45275938B600887982 /* Build configuration list for PBXProject "VipConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B66F5C275938B900887982 /* Debug */,
+				62B66F5D275938B900887982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B66F5E275938B900887982 /* Build configuration list for PBXNativeTarget "VipConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B66F5F275938B900887982 /* Debug */,
+				62B66F60275938B900887982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62B66F86275939E800887982 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62B66F87275939E800887982 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62B66F86275939E800887982 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 62B66F42275938B600887982 /* Project object */;
+}
